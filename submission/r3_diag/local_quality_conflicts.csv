@@ -1,0 +1,5 @@
+frame,type,left,reference,left_label,reference_label,iou
+adasind_128310.jpg,extra_annotation,6,,Truck,,N/A
+adasind_140160.jpg,mismatching_attributes,1,1,Bike,Bike,1.000
+adasind_230910.jpg,mismatching_attributes,11,6,Truck,Truck,1.000
+adasind_230910.jpg,mismatching_attributes,10,3,Car,Car,0.671

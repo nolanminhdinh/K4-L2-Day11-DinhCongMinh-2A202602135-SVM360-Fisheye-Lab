@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D01,2026-09-28,Có cần relock slice B3-mid sau khi annotator tinh chỉnh bounding box và ego_body trên CVAT không?,Khóa lại (relock) export mới nhất từ CVAT chứa các chỉnh sửa manual của học viên,Đảm bảo tính trung thực và cập nhật các can thiệp sửa nhãn thủ công trên giao diện CVAT trước khi bước vào QA mù,resolved
+D02,2026-09-28,Có gán nhãn cho xe đạp và ô tô ở rất xa trên frame adasind_140160.jpg không?,Không gán nhãn theo quy tắc R01 (ngưỡng H=40px),Vật thể quá xa có chiều cao dưới 40px trên ảnh fisheye gốc không đủ độ tin cậy để nhận dạng,resolved
+D03,2026-09-28,Có vẽ polygon ego_body cho cả 3 frame trong slice B3-mid không?,Vẽ polygon ego_body ở cả 3 frame,Cả 3 frame đều nhìn thấy rõ phần cản và thân xe ego ở đáy ảnh không thuộc frame ngoại lệ,resolved
+D04,2026-09-28,Đối tượng tại frame adasind_140160.jpg tọa độ (856 868) bị che khuất mờ là phương tiện hay vật tĩnh?,Gán nhãn polygon ignore_region với reason unreadable và tạo ticket escalation,Độ phân giải tại mép ảnh và bóng râm làm mất đặc trưng hình học cần đội ngũ Data Ops và AI Team thẩm định thêm,escalated

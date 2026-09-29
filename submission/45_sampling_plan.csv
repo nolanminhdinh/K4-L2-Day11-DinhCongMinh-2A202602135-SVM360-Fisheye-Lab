@@ -1,9 +1,10 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,35,Mật độ giao thông trung bình và xe chạy thẳng,Đại diện cho luồng di chuyển chính phía trước vận tốc cao cần phát hiện phương tiện và người đi bộ sớm
+front,hard,25,Ngược sáng mạnh chói nắng và cắt ngang đột ngột,Kiểm tra độ bền thuật toán khi xe rẽ gấp hoặc người đi bộ băng cắt sát đầu xe có độ biến dạng fisheye cao
+rear,normal,30,Lùi chuồng và di chuyển tốc độ chậm bãi đỗ xe,Đảm bảo nhận diện chướng ngại vật phía sau xe trong điều kiện ánh sáng đồng đều và góc nhìn thẳng
+rear,hard,25,Điểm mù sát cản sau và đèn pha xe sau rọi chói ban đêm,Nguy cơ va chạm vật thể thấp người đi bộ cúi người hoặc bóng tối gầm xe khi lùi chuồng hẹp
+left,normal,25,Phương tiện song hành và vượt bên hông trái,Đánh giá khả năng bám bắt xe vượt bên làn ngoài trong điều kiện di chuyển ổn định
+left,hard,18,Xe máy luồn lách khe hẹp và giao thoa vùng seam trước-trái sau-trái,Độ méo quang học cực đại ở rìa ngoài gương chiếu hậu và hiện tượng một vật xuất hiện ở 2 camera
+right,normal,24,Lề đường và người đi bộ vỉa hè bên phải,Đảm bảo nhận dạng tốt các đối tượng ven đường vỉa hè người đi bộ và xe thô sơ
+right,hard,18,Điểm mù cột A/B và chướng ngại vật thấp sát mép lề đường góc seam,Khu vực dễ va quẹt khi cập lề hoặc rẽ phải với độ biến dạng rìa lớn và bóng râm cây xanh
+

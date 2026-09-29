@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+ <version>1.1</version>
+ <meta>
+  <task>
+   <name>Day11 · parking_line · public-sample</name>
+  </task>
+ </meta>
+ <image id="0" name="parking-lot-core.jpg" width="960" height="720">
+  <polyline label="parking_line" source="manual" points="416.00,648.00;534.00,719.00" occluded="0" z_order="0">
+  </polyline>
+  <polyline label="parking_line" source="manual" points="725.00,667.00;960.00,705.00" occluded="0" z_order="0">
+  </polyline>
+  <polygon label="free_space" source="manual" points="0.00,570.00;960.00,550.00;960.00,620.00;720.00,640.00;410.00,640.00;0.00,650.00" occluded="0" z_order="0">
+  </polygon>
+ </image>
+</annotations>

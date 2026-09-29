@@ -1,1 +1,25 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L1,na,SPURIOUS,E1_annotator_error,P1,annotator,R01,adasind_019560.jpg:L1,rework,v1.0.0,Box ban đầu vẽ lệch tọa độ
+calib,C0,adasind_019560.jpg,L2,na,SPURIOUS,E1_annotator_error,P1,annotator,R01,adasind_019560.jpg:L2,rework,v1.0.0,Box ban đầu vẽ lệch tọa độ
+calib,C0,adasind_019560.jpg,R1,na,MISSING,E1_annotator_error,P1,annotator,R01,adasind_019560.jpg:R1,rework,v1.0.0,Bỏ sót đối tượng xe trên đường
+r1_craft,B3-mid,adasind_128310.jpg,L6,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,adasind_128310.jpg:L6,rework,v1.0.0,Box vẽ thêm sát mép trái cần kiểm tra ranh giới
+r1_craft,B3-mid,adasind_140160.jpg,L1,LR_noM,BOX_GEOMETRY,E1_annotator_error,P1,annotator,R05,adasind_140160.jpg:L1,rework,v1.0.0,Chỉnh sát viền xe máy ở rìa ảnh
+r1_craft,B3-mid,adasind_230910.jpg,L10,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,adasind_230910.jpg:L10,rework,v1.0.0,Kiểm tra lại người đi bộ ở xa xem đạt H40 không
+r2_qa,B4-edge,adasind_236370.jpg,L3,L_only,ATTRIBUTE,,P2,qa,R05,adasind_236370.jpg:L3,keep_with_reason,v1.0.0,Xe ô tô mép trái bị cắt biên gán truncated=true hợp lệ
+r2_qa,B4-edge,adasind_236370.jpg,L2,L_only,ATTRIBUTE,,P2,qa,R05,adasind_236370.jpg:L2,keep_with_reason,v1.0.0,Xe hai bánh ở sát rìa kính gán edge_zone=true hợp lệ
+r2_qa,B4-edge,adasind_310008.jpg,L5,L_only,ATTRIBUTE,,P2,qa,R05,adasind_310008.jpg:L5,keep_with_reason,v1.0.0,Người đi bộ bị che khuất gán occluded=true hợp lệ
+r3_diag,B3-mid,adasind_128310.jpg,L4+R5,LRM,BOX_GEOMETRY,E4_model_domain,P2,ai_team,R02,adasind_128310.jpg:L4,keep_with_reason,v1.0.0,Cả 3 bên đều thấy box khớp tốt
+r3_diag,B3-mid,adasind_128310.jpg,L6,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,adasind_128310.jpg:L6,rework,v1.0.0,Box L6 vẽ thêm ở cạnh trái cần xóa trong rework
+r3_diag,B3-mid,adasind_128310.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_128310.jpg:M4,keep_with_reason,v1.0.0,Model phát hiện giả ở bóng cây
+r3_diag,B3-mid,adasind_140160.jpg,L1+R1,LR_noM,MISSING,E4_model_domain,P1,ai_team,R01,adasind_140160.jpg:L1,keep_with_reason,v1.0.0,Model bỏ sót xe máy ở góc biến dạng rìa
+r3_diag,B3-mid,adasind_140160.jpg,L3+R3,LR_noM,MISSING,E4_model_domain,P1,ai_team,R01,adasind_140160.jpg:L3,keep_with_reason,v1.0.0,Model bỏ sót xe ba bánh bị che khuất
+r3_diag,B3-mid,adasind_140160.jpg,M1,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_140160.jpg:M1,keep_with_reason,v1.0.0,Model nhầm vệt phản quang thành xe
+r3_diag,B3-mid,adasind_140160.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_140160.jpg:M2,keep_with_reason,v1.0.0,Model phát hiện nhầm hàng rào
+r3_diag,B3-mid,adasind_140160.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_140160.jpg:M3,keep_with_reason,v1.0.0,Model nhầm bóng râm
+r3_diag,B3-mid,adasind_140160.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_140160.jpg:M5,keep_with_reason,v1.0.0,Model nhận diện sai cấu trúc nhà
+r3_diag,B3-mid,adasind_140160.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_140160.jpg:M6,keep_with_reason,v1.0.0,Model phát hiện vật thể không xác định
+r3_diag,B3-mid,adasind_230910.jpg,L4+R5,LRM,BOX_GEOMETRY,E4_model_domain,P2,ai_team,R02,adasind_230910.jpg:L4,keep_with_reason,v1.0.0,Cả 3 bên đều khớp xe ba bánh
+r3_diag,B3-mid,adasind_230910.jpg,L5+R7,LR_noM,MISSING,E4_model_domain,P1,ai_team,R01,adasind_230910.jpg:L5,keep_with_reason,v1.0.0,Model bỏ sót xe ô tô con ở giữa
+r3_diag,B3-mid,adasind_230910.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_230910.jpg:M8,keep_with_reason,v1.0.0,Model nhầm cột biển báo thành người
+r3_diag,B3-mid,adasind_230910.jpg,M9,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R01,adasind_230910.jpg:M9,keep_with_reason,v1.0.0,Model nhận diện nhầm bóng cây bên đường
+r3_diag,B3-mid,adasind_140160.jpg,R_poly,RM_noL,IGNORE_SCOPE,E0_reference_defect,P0,data_ops,R06,adasind_140160.jpg:unreadable,escalate,v1.0.0,Vùng unreadable ở rìa nghi ngờ reference đánh giá chưa chuẩn

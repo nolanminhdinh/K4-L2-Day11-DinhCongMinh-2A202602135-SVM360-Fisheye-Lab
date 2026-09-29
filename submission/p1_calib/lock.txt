@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: 68fb950e820fcb411f8b83baeb070258a344bac9261fa20401d2c026a28b1fb4
+code: 68FB-950E
+locked_at: 2026-09-28T16:42:03+07:00
+shapes: box=6, polygon=3
+prefill_kept: 0
+prefill_edited: 0
+new: 6

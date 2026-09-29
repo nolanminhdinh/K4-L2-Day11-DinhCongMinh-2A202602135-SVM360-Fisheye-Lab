@@ -1,0 +1,23 @@
+{
+  "members": [
+    "do",
+    "ducanh",
+    "minh"
+  ],
+  "assignments": {
+    "do": "B4-edge",
+    "ducanh": "B1-dense",
+    "minh": "B3-mid"
+  },
+  "self": "minh",
+  "slice": "B3-mid",
+  "degrade": [],
+  "current_slice": "B3-mid",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_128310.jpg:1",
+    "adasind_128310.jpg:2",
+    "adasind_128310.jpg:3"
+  ]
+}
